@@ -34,3 +34,8 @@ body {
       font-size: 3vh;
       text-transform: uppercase;
       letter-spacing: 0.1vw; }
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600; }
