@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>JS-drum</title>
+    <link rel="stylesheet" href="public/main.css">
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="keys__element">
+            <kbd class="keys__element--letter">A</kbd>
+            <span class="keys__element--sound">bongo</span>
+        </div>
+        <div data-key="83" class="keys__element">
+            <kbd class="keys__element--letter">S</kbd>
+            <span class="keys__element--sound">deep</span>
+        </div>
+        <div data-key="68" class="keys__element">
+            <kbd class="keys__element--letter">D</kbd>
+            <span class="keys__element--sound">heavy</span>
+        </div>
+        <div data-key="70" class="keys__element">
+            <kbd class="keys__element--letter">F</kbd>
+            <span class="keys__element--sound">jug</span>
+        </div>
+        <div data-key="71" class="keys__element">
+            <kbd class="keys__element--letter">G</kbd>
+            <span class="keys__element--sound">snare</span>
+        </div>
+        <div data-key="72" class="keys__element">
+            <kbd class="keys__element--letter">H</kbd>
+            <span class="keys__element--sound">stick</span>
+        </div>
+        <div data-key="74" class="keys__element">
+            <kbd class="keys__element--letter">J</kbd>
+            <span class="keys__element--sound">dumroll</span>
+        </div>
+        <div data-key="75" class="keys__element">
+            <kbd class="keys__element--letter">K</kbd>
+            <span class="keys__element--sound">tomtom</span>
+        </div>
+        <div data-key="76" class="keys__element">
+            <kbd class="keys__element--letter">L</kbd>
+            <span class="keys__element--sound">low</span>
+        </div>
+    </div>
+    <audio data-key="65" src="public/music/beat_bongo.wav"></audio>
+	  <audio data-key="83" src="public/music/beat_deep.wav"></audio>
+	  <audio data-key="68" src="public/music/beat_heavy.wav"></audio>
+	  <audio data-key="70" src="public/music/beat_jug.wav"></audio>
+	  <audio data-key="71" src="public/music/drum_snare1.wav"></audio>
+	  <audio data-key="72" src="public/music/drum_stick.wav"></audio>
+	  <audio data-key="74" src="public/music/drumroll1.wav"></audio>
+	  <audio data-key="75" src="public/music/tomtom_hi.wav"></audio>
+	  <audio data-key="76" src="public/music/tomtom_low.wav"></audio>
+    <script type="text/javascript" src="src/script.js"></script>
+</body>
+</html>
